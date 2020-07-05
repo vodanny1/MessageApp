@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9920CF5224B2223A0074C40D /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9920CF5124B2223A0074C40D /* ChatViewController.swift */; };
 		993BA18824B1247800BE2D44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993BA18724B1247800BE2D44 /* AppDelegate.swift */; };
 		993BA18A24B1247800BE2D44 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993BA18924B1247800BE2D44 /* SceneDelegate.swift */; };
 		993BA18C24B1247800BE2D44 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993BA18B24B1247800BE2D44 /* ConversationsViewController.swift */; };
@@ -28,6 +29,7 @@
 /* Begin PBXFileReference section */
 		547E212A73E28BC5BD12DDB2 /* Pods-MessageApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessageApp.release.xcconfig"; path = "Target Support Files/Pods-MessageApp/Pods-MessageApp.release.xcconfig"; sourceTree = "<group>"; };
 		7C90C6E93A1DA9C99A49DD78 /* Pods-MessageApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessageApp.debug.xcconfig"; path = "Target Support Files/Pods-MessageApp/Pods-MessageApp.debug.xcconfig"; sourceTree = "<group>"; };
+		9920CF5124B2223A0074C40D /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		993BA18424B1247800BE2D44 /* MessageApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MessageApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		993BA18724B1247800BE2D44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		993BA18924B1247800BE2D44 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				9948DA7A24B1281800EAB04F /* VideoPlayerViewController.swift */,
 				9948DA7C24B1283900EAB04F /* NewConversationViewController.swift */,
 				9948DA7E24B1285400EAB04F /* ProfileViewController.swift */,
+				9920CF5124B2223A0074C40D /* ChatViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 				993BA18824B1247800BE2D44 /* AppDelegate.swift in Sources */,
 				9948DA7F24B1285400EAB04F /* ProfileViewController.swift in Sources */,
 				993BA18A24B1247800BE2D44 /* SceneDelegate.swift in Sources */,
+				9920CF5224B2223A0074C40D /* ChatViewController.swift in Sources */,
 				9948DA7924B1281000EAB04F /* PhotoViewerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
