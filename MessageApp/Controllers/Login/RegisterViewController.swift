@@ -132,7 +132,7 @@ class RegisterViewController: UIViewController {
         gesture.numberOfTouchesRequired = 1
         gesture.numberOfTapsRequired = 1
         imageView.addGestureRecognizer(gesture)
-
+        
     }
     
     @objc private func didTapChangeProfilePic() {
